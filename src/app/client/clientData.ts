@@ -1,4 +1,3 @@
-
 export class ClientData {
     public prenom: string;
     public nom: string;
@@ -22,4 +21,4 @@ export class CompteData {
             public client: ClientData;
             public login: LoginData;
             public adresse: AdresseData;
-        }
+}

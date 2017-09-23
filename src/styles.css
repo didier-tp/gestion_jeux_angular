@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: lightblue;
+}
+
+h1{
+    color : red;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: cursive;
+}
+h2{
+    color : green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3{
+    color : green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+label{
+    color : brown;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.corps{
+    color : orangered;
+}

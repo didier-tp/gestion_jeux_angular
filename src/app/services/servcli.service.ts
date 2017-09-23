@@ -11,9 +11,6 @@ export class ServcliService {
 
 
   constructor (private http: Http) { }
-
-
-
         postcompte(compte: CompteData) {
           let body = JSON.stringify(compte);
           let headers = new Headers({ 'Content-Type': 'application/json' });
@@ -21,5 +18,4 @@ export class ServcliService {
 
           return this.http.post('http://localhost:8080/gestion_jeux/mvc/cli/compte', body, options);
         }
-
-      }
+}
