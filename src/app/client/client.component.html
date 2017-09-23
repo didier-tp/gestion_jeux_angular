@@ -1,0 +1,58 @@
+<h2> Pour commander un jeu veuillez vous inscrire </h2>
+<div class="panel-body">
+   
+    <div class="col-sm-6">
+        <label for="prenom">Prenom</label>
+        <br><input  [(ngModel)]="client.prenom"  id="prenom"><br>
+
+        <label for="nom">Nom</label>
+        <br><input  [(ngModel)]="client.nom"  type="text" id="nom"><br>
+
+        <label for="mail">Mail</label>
+        <br><input  [(ngModel)]="client.mail"  id="mail"><br>
+
+        <!-- <label for="adresse">adresse:</label>
+        <input [(ngModel)]="client.adresse" id="adresse"><br>
+
+        <label for="login">login:</label>
+        <input [(ngModel)]="client.login" id="login"><br>
+
+        <label for="motDePasse">Mot de passe:</label>
+        <input type="password" [(ngModel)]="client.motDePasse" id="motDePasse"><br> -->
+
+        <label for="telephone">T&eacute;l&eacute;phone</label>
+        <br><input [(ngModel)]="client.telephone" id="telephone"><br>
+
+        <h3> Créer votre login et mot de passe</h3>
+        <div class="panel-body">
+           
+            <div class="col-sm-6">
+                <label for="login">Login ou Pseudo</label>
+                <br><input  [(ngModel)]="login.login"  id="login"><br>
+        
+                <label for="motDePasse">motDePasse :</label>
+                <br><input  [(ngModel)]="login.motDePasse"  type="password" id="motDePasse"><br>
+
+                <h4> Renseigner votre adresse </h4>
+                <div class="panel-body">
+                   
+                    <div class="col-sm-6">
+                        <label for="rue">numero et rue </label>
+                        <br><input  [(ngModel)]="adresse.rue"  id="adresse"><br>
+                
+                        <label for="codePostal">codePostal</label>
+                        <br><input  [(ngModel)]="adresse.codePostal"   id="codePostal"><br>
+
+                        <label for="ville">Ville</label>
+                        <br><input  [(ngModel)]="adresse.ville"   id="ville"><br>
+
+                <div class="form-group col-sm-12">
+                  <button type="button"  (click)="createcompte($event)" class="btn-success">valider</button>
+                </div>
+              </div>
+        </div>  
+    
+      
+   
+</div>
+
